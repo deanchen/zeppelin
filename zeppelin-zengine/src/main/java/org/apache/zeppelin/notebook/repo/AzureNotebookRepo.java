@@ -56,7 +56,7 @@ import com.microsoft.azure.storage.file.ListFileItem;
  * Azure storage backend for notebooks
  */
 public class AzureNotebookRepo implements NotebookRepo {
-  private static final Logger LOG = LoggerFactory.getLogger(S3NotebookRepo.class);
+  private static final Logger LOG = LoggerFactory.getLogger(AzureNotebookRepo.class);
 
   private final ZeppelinConfiguration conf;
   private final String user;
